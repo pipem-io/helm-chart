@@ -2,6 +2,29 @@ apiVersion: v1
 entries:
   pipem:
   - apiVersion: v2
+    appVersion: 0.1.15
+    created: "2022-07-22T12:17:42.066062877Z"
+    dependencies:
+    - condition: mongodb.install
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.30.12
+    - name: nats
+      repository: https://nats-io.github.io/k8s/helm/charts/
+      version: 0.10.0
+    description: Pipeline Monitoring
+    digest: a9822ebe4526dd848a45934c1df57aa728f202dd48abb0fe4a8fd9265437e472
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: mauro.sala@gmail.com
+      name: Mauro Sala
+      url: https://pipem.io
+    name: pipem
+    type: application
+    urls:
+    - https://charts.pipem.io/pipem-0.1.15.tgz
+    version: 0.1.15
+  - apiVersion: v2
     appVersion: 0.1.14
     created: "2022-07-22T11:05:05.708473655Z"
     dependencies:
@@ -24,4 +47,4 @@ entries:
     urls:
     - https://charts.pipem.io/pipem-0.1.14.tgz
     version: 0.1.14
-generated: "2022-07-22T11:05:05.700838273Z"
+generated: "2022-07-22T12:17:42.05615791Z"
