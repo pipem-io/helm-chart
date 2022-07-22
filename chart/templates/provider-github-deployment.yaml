@@ -1,0 +1,36 @@
+{{- if .Values.providers.github -}}
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: provider-github
+  labels:
+    app: pipem.io
+    component: provider-producer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: provider-github
+  template:
+    metadata:
+      labels:
+        component: provider-github
+    spec:
+      containers:
+        - name: provider-github
+          image: {{ .Values.images.provider_github }}
+          imagePullPolicy: IfNotPresent
+          resources:
+            limits:
+              memory: '128Mi'
+              cpu: '100m'
+          envFrom:
+            - configMapRef:
+                name: pipem-config
+          env:
+            - name: 'MONGODB_URI'
+              valueFrom:
+                secretKeyRef:
+                  name: pipem-secret
+                  key: MONGODB_URI
+{{- end -}}

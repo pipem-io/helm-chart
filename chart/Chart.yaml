@@ -1,0 +1,22 @@
+apiVersion: v2
+name: pipem.io
+description: Pipeline Monitoring
+type: application
+icon: "https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png"
+
+version: VERSION
+appVersion: VERSION
+
+dependencies:
+  - name: "mongodb"
+    version: "10.30.12"
+    repository: https://charts.bitnami.com/bitnami
+    condition: mongodb.install
+  - name: "nats"
+    repository: https://nats-io.github.io/k8s/helm/charts/
+    version: "0.10.0"
+
+maintainers:
+  - name: Mauro Sala
+    email: mauro.sala@gmail.com
+    url: https://pipem.io

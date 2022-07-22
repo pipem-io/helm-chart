@@ -1,0 +1,22 @@
+{{- if .Values.ingress.traefik -}}
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: app-ingress-route
+spec:
+  entryPoints:
+    - websecure
+  routes:
+    - match: Host(`{{ .Values.app.domain }}`)
+      kind: Rule
+      services:
+        - name: app-svc
+          port: 80
+      middlewares:
+        - name: traefik-compress
+          namespace: traefik
+  tls:
+    certResolver: letsencrypt
+    domains:
+      - main: {{ .Values.app.domain | quote }}
+{{- end -}}
