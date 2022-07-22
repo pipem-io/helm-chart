@@ -6,8 +6,8 @@ images:
   provider_github: docker.pipem.io/provider-github:0.1.0
   provider_gitlab: docker.pipem.io/provider-github:0.1.0
 
-username: "anomaleet"
-password: "cloud@anomaleet.com"
+username: "pipem"
+password: "pipem"
 
 mongodb:
   install: false
@@ -34,7 +34,7 @@ api:
 
 providers:
   google: true
-  github: false
+  github: true
   gitlab: false
 
 log:
