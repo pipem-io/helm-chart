@@ -36,4 +36,4 @@ jobs:
       - name: Run chart-releaser
         uses: J12934/helm-gh-pages-action@master
         env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          access-token: "${{ secrets.GITHUB_TOKEN }}"
