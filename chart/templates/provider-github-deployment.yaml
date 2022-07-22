@@ -21,9 +21,12 @@ spec:
           image: {{ .Values.images.provider_github }}
           imagePullPolicy: IfNotPresent
           resources:
+            requests:
+              memory: "32Mi"
+              cpu: "10m"
             limits:
-              memory: '256Mi'
-              cpu: '100m'
+              memory: "256Mi"
+              cpu: "100m"
           envFrom:
             - configMapRef:
                 name: pipem-config

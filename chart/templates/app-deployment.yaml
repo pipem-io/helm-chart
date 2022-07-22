@@ -24,9 +24,12 @@ spec:
               mountPath: /usr/share/nginx/html/runtime-config.js
               subPath: runtime-config.js
           resources:
+            requests:
+              memory: "32Mi"
+              cpu: "10m"
             limits:
-              memory: '256Mi'
-              cpu: '100m'
+              memory: "256Mi"
+              cpu: "100m"
           ports:
             - containerPort: 8080
           livenessProbe:
