@@ -30,7 +30,7 @@ jobs:
           charts_dir: ./
           charts_url: https://charts.pipem.io
           owner: pipem-io
-          repository: helm-charts
+          repository: helm-chart
           branch: gh-pages
       # - name: Configure Git
       #   run: |
