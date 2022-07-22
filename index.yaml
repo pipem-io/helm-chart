@@ -5,7 +5,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 4.4.11
-    created: "2022-07-22T10:43:14.224734733Z"
+    created: "2022-07-22T10:49:09.716503661Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -38,7 +38,7 @@ entries:
   nats:
   - apiVersion: v2
     appVersion: 2.6.5
-    created: "2022-07-22T10:43:14.226030348Z"
+    created: "2022-07-22T10:49:09.718168594Z"
     description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
       Communications Technology.
     digest: 31b72c74bdef3b806a64b36be9a5baa241fd7ba8a141958ea80879635698376d
@@ -62,4 +62,4 @@ entries:
     urls:
     - charts/nats-0.10.0.tgz
     version: 0.10.0
-generated: "2022-07-22T10:43:14.219589075Z"
+generated: "2022-07-22T10:49:09.707688989Z"
