@@ -2,7 +2,7 @@ apiVersion: v2
 name: pipem.io
 description: Pipeline Monitoring
 type: application
-icon: "https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png"
+icon: "https://avatars.githubusercontent.com/u/96174842"
 
 version: VERSION
 appVersion: VERSION
