@@ -19,10 +19,10 @@ spec:
         - name: api
           image: {{ .Values.images.api }}
           imagePullPolicy: IfNotPresent
-          # resources:
-          #   limits:
-          #     memory: '64Mi'
-          #     cpu: '10m'
+          resources:
+            limits:
+              memory: "256Mi"
+              cpu: "100m"
           ports:
             - containerPort: 8080
           livenessProbe:

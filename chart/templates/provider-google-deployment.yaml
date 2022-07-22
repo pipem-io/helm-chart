@@ -20,10 +20,10 @@ spec:
         - name: provider-google
           image: {{ .Values.images.provider_google }}
           imagePullPolicy: IfNotPresent
-          # resources:
-          #   limits:
-          #     memory: '64Mi'
-          #     cpu: '10m'
+          resources:
+            limits:
+              memory: '256Mi'
+              cpu: '100m'
           envFrom:
             - configMapRef:
                 name: pipem-config

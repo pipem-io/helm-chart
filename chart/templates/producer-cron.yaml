@@ -21,10 +21,10 @@ spec:
             - name: producer
               image: {{ .Values.images.nats_producer }}
               imagePullPolicy: IfNotPresent
-              # resources:
-              #   limits:
-              #     memory: '64Mi'
-              #     cpu: '5m'
+              resources:
+                limits:
+                  memory: "256Mi"
+                  cpu: "100m"
               envFrom:
                 - configMapRef:
                     name: pipem-config
