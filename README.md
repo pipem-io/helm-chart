@@ -1,11 +1,15 @@
-# Pipem.io - Pipeline Monitoring
-
-# Install
+# Pipeline Monitoring
 
 ```
 helm repo add pipem https://charts.pipem.io
 helm repo update
+```
 
-helm install pipem/pipem --generate-name --namespace pipem --create-namespace
+# Install
 
+```
+helm install app pipem/app
+helm install api pipem/api -f api.values.yaml
+helm install provider-google pipem/provider-google
+helm install nats-producer pipem/nats-producer
 ```
