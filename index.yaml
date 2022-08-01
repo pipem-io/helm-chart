@@ -1,75 +1,98 @@
 apiVersion: v1
 entries:
   api:
-    - apiVersion: v2
-      appVersion: 0.5.4
-      created: "2022-08-01T17:32:34.810918643Z"
-      dependencies:
-        - condition: mongodb.install
-          name: mongodb
-          repository: https://charts.bitnami.com/bitnami
-          version: 10.30.12
-        - name: nats
-          repository: https://nats-io.github.io/k8s/helm/charts/
-          version: 0.10.0
-      description: Api
-      digest: 1f3f15b5ef63312d4c2f7acca08b4f12b093e59d9a49ca97933835f1029bf5cc
-      icon: https://avatars.githubusercontent.com/u/96174842
-      maintainers:
-        - email: mauro.sala@gmail.com
-          name: Mauro Sala
-          url: https://pipem.io
-      name: api
-      type: application
-      urls:
-        - https://charts.pipem.io/api-0.5.4.tgz
-      version: 0.5.4
+  - apiVersion: v2
+    appVersion: 0.6.0
+    created: "2022-08-01T20:16:24.338621709Z"
+    dependencies:
+    - condition: mongodb.install
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.30.12
+    - name: nats
+      repository: https://nats-io.github.io/k8s/helm/charts/
+      version: 0.10.0
+    description: Api
+    digest: 3709596419718eab8654f180087538dd17fa5de50ebdd293802c4fe4cc235d95
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: mauro.sala@gmail.com
+      name: Mauro Sala
+      url: https://pipem.io
+    name: api
+    type: application
+    urls:
+    - https://charts.pipem.io/api-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    appVersion: 0.5.4
+    created: "2022-08-01T17:32:34.810918643Z"
+    dependencies:
+    - condition: mongodb.install
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.30.12
+    - name: nats
+      repository: https://nats-io.github.io/k8s/helm/charts/
+      version: 0.10.0
+    description: Api
+    digest: 1f3f15b5ef63312d4c2f7acca08b4f12b093e59d9a49ca97933835f1029bf5cc
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: mauro.sala@gmail.com
+      name: Mauro Sala
+      url: https://pipem.io
+    name: api
+    type: application
+    urls:
+    - https://charts.pipem.io/api-0.5.4.tgz
+    version: 0.5.4
   app:
-    - apiVersion: v2
-      appVersion: 0.5.4
-      created: "2022-08-01T17:21:33.793199518Z"
-      description: App
-      digest: 4aef7f839aaf368e8abb682c6b8cb1f130d780b2186efa474a186a5fb7052d3d
-      icon: https://avatars.githubusercontent.com/u/96174842
-      maintainers:
-        - email: mauro.sala@gmail.com
-          name: Mauro Sala
-          url: https://pipem.io
-      name: app
-      type: application
-      urls:
-        - https://charts.pipem.io/app-0.5.4.tgz
-      version: 0.5.4
+  - apiVersion: v2
+    appVersion: 0.5.4
+    created: "2022-08-01T17:21:33.793199518Z"
+    description: App
+    digest: 4aef7f839aaf368e8abb682c6b8cb1f130d780b2186efa474a186a5fb7052d3d
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: mauro.sala@gmail.com
+      name: Mauro Sala
+      url: https://pipem.io
+    name: app
+    type: application
+    urls:
+    - https://charts.pipem.io/app-0.5.4.tgz
+    version: 0.5.4
   nats-producer:
-    - apiVersion: v2
-      appVersion: 0.4.6
-      created: "2022-08-01T18:37:54.902771802Z"
-      description: Nats Producer
-      digest: f14bd2389308e62208b141a2ff5ad9c26561623ac907295b6e8293f7caa6a8f4
-      icon: https://avatars.githubusercontent.com/u/96174842
-      maintainers:
-        - email: mauro.sala@gmail.com
-          name: Mauro Sala
-          url: https://pipem.io
-      name: nats-producer
-      type: application
-      urls:
-        - https://charts.pipem.io/nats-producer-0.4.6.tgz
-      version: 0.4.6
+  - apiVersion: v2
+    appVersion: 0.4.6
+    created: "2022-08-01T18:37:54.902771802Z"
+    description: Nats Producer
+    digest: f14bd2389308e62208b141a2ff5ad9c26561623ac907295b6e8293f7caa6a8f4
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: mauro.sala@gmail.com
+      name: Mauro Sala
+      url: https://pipem.io
+    name: nats-producer
+    type: application
+    urls:
+    - https://charts.pipem.io/nats-producer-0.4.6.tgz
+    version: 0.4.6
   provider-google:
-    - apiVersion: v2
-      appVersion: 0.4.8
-      created: "2022-08-01T18:39:27.542662152Z"
-      description: Provider Google
-      digest: f54bf92c12a1f72e3223ffefc5adef220a333000203e74f15aba3834e9d056e5
-      icon: https://avatars.githubusercontent.com/u/96174842
-      maintainers:
-        - email: mauro.sala@gmail.com
-          name: Mauro Sala
-          url: https://pipem.io
-      name: provider-google
-      type: application
-      urls:
-        - https://charts.pipem.io/provider-google-0.4.8.tgz
-      version: 0.4.8
-generated: "2022-08-01T18:39:27.541555636Z"
+  - apiVersion: v2
+    appVersion: 0.4.8
+    created: "2022-08-01T18:39:27.542662152Z"
+    description: Provider Google
+    digest: f54bf92c12a1f72e3223ffefc5adef220a333000203e74f15aba3834e9d056e5
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: mauro.sala@gmail.com
+      name: Mauro Sala
+      url: https://pipem.io
+    name: provider-google
+    type: application
+    urls:
+    - https://charts.pipem.io/provider-google-0.4.8.tgz
+    version: 0.4.8
+generated: "2022-08-01T20:16:24.323717695Z"
