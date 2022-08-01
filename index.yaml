@@ -50,9 +50,9 @@ entries:
   app:
   - apiVersion: v2
     appVersion: 0.5.4
-    created: "2022-08-01T17:21:33.793199518Z"
+    created: "2022-08-01T20:19:42.96762019Z"
     description: App
-    digest: 4aef7f839aaf368e8abb682c6b8cb1f130d780b2186efa474a186a5fb7052d3d
+    digest: c5e16c71204e13b696f8d4a3206f810fcec1bc47b16e6123253e2cbf740fb809
     icon: https://avatars.githubusercontent.com/u/96174842
     maintainers:
     - email: mauro.sala@gmail.com
@@ -95,4 +95,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-0.4.8.tgz
     version: 0.4.8
-generated: "2022-08-01T20:16:24.323717695Z"
+generated: "2022-08-01T20:19:42.966715045Z"
