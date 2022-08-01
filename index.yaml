@@ -175,9 +175,9 @@ entries:
   provider-google:
   - apiVersion: v2
     appVersion: 0.4.8
-    created: "2022-08-01T15:18:14.336913453Z"
+    created: "2022-08-01T18:39:27.542662152Z"
     description: Provider Google
-    digest: 69858ec7e06687b4c3ea03b6569fd659a76ee7433a735994767478e0ef3b2e68
+    digest: f54bf92c12a1f72e3223ffefc5adef220a333000203e74f15aba3834e9d056e5
     icon: https://avatars.githubusercontent.com/u/96174842
     maintainers:
     - email: mauro.sala@gmail.com
@@ -218,4 +218,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-0.4.5.tgz
     version: 0.4.5
-generated: "2022-08-01T18:37:54.902331499Z"
+generated: "2022-08-01T18:39:27.541555636Z"
