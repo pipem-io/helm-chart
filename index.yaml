@@ -2,6 +2,29 @@ apiVersion: v1
 entries:
   api:
   - apiVersion: v2
+    appVersion: 0.6.2
+    created: "2022-08-02T06:30:04.023529873Z"
+    dependencies:
+    - condition: mongodb.install
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.30.12
+    - name: nats
+      repository: https://nats-io.github.io/k8s/helm/charts/
+      version: 0.10.0
+    description: Api
+    digest: 388e9a3dfad1ae01e966ddcb1e1afc7339a0ca7d85d28bedad55dd208a32914c
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: mauro.sala@gmail.com
+      name: Mauro Sala
+      url: https://pipem.io
+    name: api
+    type: application
+    urls:
+    - https://charts.pipem.io/api-0.6.2.tgz
+    version: 0.6.2
+  - apiVersion: v2
     appVersion: 0.6.1
     created: "2022-08-01T20:37:15.981886927Z"
     dependencies:
@@ -133,4 +156,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-0.4.8.tgz
     version: 0.4.8
-generated: "2022-08-01T20:37:15.974601639Z"
+generated: "2022-08-02T06:30:04.01474404Z"
