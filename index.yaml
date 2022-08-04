@@ -3,7 +3,7 @@ entries:
   api:
   - apiVersion: v2
     appVersion: 0.6.3
-    created: "2022-08-04T19:15:00.89464029Z"
+    created: "2022-08-04T19:33:52.271952915Z"
     dependencies:
     - condition: mongodb.install
       name: mongodb
@@ -13,7 +13,7 @@ entries:
       repository: https://nats-io.github.io/k8s/helm/charts/
       version: 0.10.0
     description: Api
-    digest: aaae51f82b2bd28b157a4abf9c3a1cf6d030be6a41d59c69296ef435db5f6929
+    digest: c93cd8e80cb4b20e3121cdaff0270e24b00a4687840f9d4c7d555da221ad3483
     icon: https://avatars.githubusercontent.com/u/96174842
     maintainers:
     - email: mauro.sala@gmail.com
@@ -254,4 +254,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-0.4.8.tgz
     version: 0.4.8
-generated: "2022-08-04T19:15:00.887381014Z"
+generated: "2022-08-04T19:33:52.262175892Z"
