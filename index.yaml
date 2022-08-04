@@ -231,6 +231,22 @@ entries:
     urls:
     - https://charts.pipem.io/nats-producer-0.4.6.tgz
     version: 0.4.6
+  provider-github:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2022-08-04T21:08:51.211826663Z"
+    description: Provider GitHub
+    digest: 38ae6f16549dce910824edbe97357527da84001ef38a9b9a712f6f0029fa42c3
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: mauro.sala@gmail.com
+      name: Mauro Sala
+      url: https://pipem.io
+    name: provider-github
+    type: application
+    urls:
+    - https://charts.pipem.io/provider-github-0.1.1.tgz
+    version: 0.1.1
   provider-google:
   - apiVersion: v2
     appVersion: 0.4.12
@@ -307,4 +323,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-0.4.8.tgz
     version: 0.4.8
-generated: "2022-08-04T21:02:33.124352381Z"
+generated: "2022-08-04T21:08:51.210655512Z"
