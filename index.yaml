@@ -309,6 +309,21 @@ entries:
     version: 0.1.1
   provider-google:
   - apiVersion: v2
+    appVersion: 0.4.16
+    created: "2022-08-08T09:02:14.224382249Z"
+    description: Provider Google
+    digest: 934bf90975de3f24f709405d845963bc85b8f7e741991685cb0819b70b9d1397
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: mauro.sala@gmail.com
+      name: Mauro Sala
+      url: https://pipem.io
+    name: provider-google
+    type: application
+    urls:
+    - https://charts.pipem.io/provider-google-0.4.16.tgz
+    version: 0.4.16
+  - apiVersion: v2
     appVersion: 0.4.15
     created: "2022-08-07T10:56:26.462863349Z"
     description: Provider Google
@@ -428,4 +443,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-0.4.8.tgz
     version: 0.4.8
-generated: "2022-08-07T17:51:57.236688428Z"
+generated: "2022-08-08T09:02:14.223671598Z"
