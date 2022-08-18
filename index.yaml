@@ -505,6 +505,21 @@ entries:
     version: 0.5.4
   nats-producer:
   - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2022-08-18T19:36:12.080214838Z"
+    description: Nats Producer
+    digest: d5e171e74211da802aee68bd55dc0724ac85ac4b13b23562e131ec153dfd1578
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: mauro.sala@gmail.com
+      name: Mauro Sala
+      url: https://pipem.io
+    name: nats-producer
+    type: application
+    urls:
+    - https://charts.pipem.io/nats-producer-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: 0.4.6
     created: "2022-08-01T18:37:54.902771802Z"
     description: Nats Producer
@@ -776,4 +791,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-0.4.8.tgz
     version: 0.4.8
-generated: "2022-08-18T18:53:11.873330882Z"
+generated: "2022-08-18T19:36:12.079378228Z"
