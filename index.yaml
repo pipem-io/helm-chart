@@ -302,6 +302,21 @@ entries:
     version: 0.5.4
   app:
   - apiVersion: v2
+    appVersion: 0.8.2
+    created: "2022-08-19T11:27:41.813719223Z"
+    description: App
+    digest: 79d99a6325fa32badd6484b58071549913c5ebb10f3e0a59164805b54fd7b800
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: mauro.sala@gmail.com
+      name: Mauro Sala
+      url: https://pipem.io
+    name: app
+    type: application
+    urls:
+    - https://charts.pipem.io/app-0.8.2.tgz
+    version: 0.8.2
+  - apiVersion: v2
     appVersion: 0.8.1
     created: "2022-08-19T11:17:54.81114612Z"
     description: App
@@ -845,4 +860,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-0.4.8.tgz
     version: 0.4.8
-generated: "2022-08-19T11:17:54.810132701Z"
+generated: "2022-08-19T11:27:41.813231709Z"
