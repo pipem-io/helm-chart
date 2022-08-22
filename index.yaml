@@ -695,6 +695,21 @@ entries:
     version: 0.1.1
   provider-gitlab:
   - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2022-08-22T19:55:09.832867387Z"
+    description: Provider GitLab
+    digest: e16f7e774327568bc6a7e50e5f61fc07c069b09a2b34fd57d673d8854fd93653
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: mauro.sala@gmail.com
+      name: Mauro Sala
+      url: https://pipem.io
+    name: provider-gitlab
+    type: application
+    urls:
+    - https://charts.pipem.io/provider-gitlab-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: 1.0.0
     created: "2022-08-22T19:23:34.252452692Z"
     description: Provider GitLab
@@ -920,4 +935,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-0.4.8.tgz
     version: 0.4.8
-generated: "2022-08-22T19:53:35.193205608Z"
+generated: "2022-08-22T19:55:09.832048264Z"
