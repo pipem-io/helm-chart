@@ -65,9 +65,9 @@ entries:
   nats-producer:
   - apiVersion: v2
     appVersion: 2.0.1
-    created: "2022-11-16T00:09:40.048498934Z"
+    created: "2022-11-16T00:30:08.529857782Z"
     description: Nats Producer
-    digest: 6cc2eda05d1bd5738e39563ab13fe3fee49ee79e9ab048cfe3e8740d653b7f0a
+    digest: 7e900652bd8d8f4377919984421f470308cf3a51b48f4770605748a00b8adf01
     icon: https://avatars.githubusercontent.com/u/96174842
     maintainers:
     - email: info@pipem.io
@@ -195,4 +195,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-1.2.0.tgz
     version: 1.2.0
-generated: "2022-11-16T00:27:48.542815913Z"
+generated: "2022-11-16T00:30:08.529360682Z"
