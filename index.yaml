@@ -149,6 +149,21 @@ entries:
     version: 0.9.3
   provider-github:
   - apiVersion: v2
+    appVersion: 2.0.8
+    created: "2022-11-22T11:36:52.689832803Z"
+    description: Provider GitHub
+    digest: 6dae513a62249dc0f6c1619222f56f46fb931f095ca87a23cf9301e3bf6a57ed
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: info@pipem.io
+      name: Pipem.io
+      url: https://pipem.io
+    name: provider-github
+    type: application
+    urls:
+    - https://charts.pipem.io/provider-github-2.0.8.tgz
+    version: 2.0.8
+  - apiVersion: v2
     appVersion: 2.0.7
     created: "2022-11-22T10:56:16.116555959Z"
     description: Provider GitHub
@@ -285,4 +300,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-1.2.0.tgz
     version: 1.2.0
-generated: "2022-11-22T10:56:16.115922846Z"
+generated: "2022-11-22T11:36:52.689403598Z"
