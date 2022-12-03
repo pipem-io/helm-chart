@@ -200,6 +200,29 @@ entries:
     version: 1.0.1
   pipem:
   - apiVersion: v2
+    appVersion: 0.10.1
+    created: "2022-12-03T12:48:32.155776856Z"
+    dependencies:
+    - condition: mongodb.install
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.30.12
+    - name: nats
+      repository: https://nats-io.github.io/k8s/helm/charts/
+      version: 0.17.1
+    description: Pipem Config
+    digest: 4def5fbf7a8e95d65b4916d6a236ea60f677a8f5f3a76e2ca06fdf458a2134a9
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: info@pipem.io
+      name: Pipem.io
+      url: https://pipem.io
+    name: pipem
+    type: application
+    urls:
+    - https://charts.pipem.io/pipem-0.10.1.tgz
+    version: 0.10.1
+  - apiVersion: v2
     appVersion: 0.10.0
     created: "2022-12-03T12:32:46.672082003Z"
     dependencies:
@@ -473,4 +496,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-1.2.0.tgz
     version: 1.2.0
-generated: "2022-12-03T12:32:46.664901431Z"
+generated: "2022-12-03T12:48:32.145902178Z"
