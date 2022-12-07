@@ -572,6 +572,21 @@ entries:
     version: 1.0.2
   provider-gitlab:
   - apiVersion: v2
+    appVersion: 2.0.1
+    created: "2022-12-07T15:29:31.702119461Z"
+    description: Provider GitLab
+    digest: bd726a2711f6fcc0fd61377e0ba3cbf8da37d35d632ff9e141051c81cb48f0c7
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: info@pipem.io
+      name: Pipem.io
+      url: https://pipem.io
+    name: provider-gitlab
+    type: application
+    urls:
+    - https://charts.pipem.io/provider-gitlab-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
     appVersion: 1.0.1
     created: "2022-08-22T19:55:09.832867387Z"
     description: Provider GitLab
@@ -632,4 +647,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-1.2.0.tgz
     version: 1.2.0
-generated: "2022-12-06T17:02:02.062273233Z"
+generated: "2022-12-07T15:29:31.701685236Z"
