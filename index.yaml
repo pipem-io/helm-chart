@@ -1,785 +1,123 @@
 apiVersion: v1
 entries:
   api:
-  - apiVersion: v2
-    appVersion: 1.5.2
-    created: "2022-12-09T07:49:59.221924663Z"
-    description: Api
-    digest: 6cfdf8f34a33c2274f141d47d771f2062e471e3b07d682c9bffdcff04afb6a3e
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: api
-    type: application
-    urls:
-    - https://charts.pipem.io/api-1.5.2.tgz
-    version: 1.5.2
-  - apiVersion: v2
-    appVersion: 1.5.1
-    created: "2022-12-09T07:16:12.044889967Z"
-    description: Api
-    digest: a2ec5f181876a4f4aac3fd338650bbec180b79702ecde46cfd047d6e37fd7b79
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: api
-    type: application
-    urls:
-    - https://charts.pipem.io/api-1.5.1.tgz
-    version: 1.5.1
-  - apiVersion: v2
-    appVersion: 1.5.0
-    created: "2022-12-05T18:35:51.550110809Z"
-    description: Api
-    digest: 32aa1c56194786826d324ef3ee8ac36b7c6dc41644e257e3e0b4048d76c091d9
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: api
-    type: application
-    urls:
-    - https://charts.pipem.io/api-1.5.0.tgz
-    version: 1.5.0
-  - apiVersion: v2
-    appVersion: 1.4.0
-    created: "2022-12-03T12:05:14.710412814Z"
-    description: Api
-    digest: 1e7d8550696d8a5c037b7a7e94ed8161ca0551cbddab515ef0b67d0791e03f9d
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: api
-    type: application
-    urls:
-    - https://charts.pipem.io/api-1.4.0.tgz
-    version: 1.4.0
-  - apiVersion: v2
-    appVersion: 1.3.7
-    created: "2022-12-02T16:50:53.56972098Z"
-    description: Api
-    digest: f2367cb1dfd608b40ebe85e78f349a5ca0386e82ec2c28febde4dd68a08bd67b
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: api
-    type: application
-    urls:
-    - https://charts.pipem.io/api-1.3.7.tgz
-    version: 1.3.7
-  - apiVersion: v2
-    appVersion: 1.3.6
-    created: "2022-11-14T18:18:57.614286424Z"
-    description: Api
-    digest: 7e33785a8c72fa848a2faad2eabe90cb5b1e252bb20f81a4d51e7e8a7ca659eb
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: api
-    type: application
-    urls:
-    - https://charts.pipem.io/api-1.3.6.tgz
-    version: 1.3.6
-  - apiVersion: v2
-    appVersion: 1.3.5
-    created: "2022-11-13T11:19:35.508616001Z"
-    description: Api
-    digest: 42cd18603f7059f1b90e423128827f245c786d14b93322ccde09f4637aa5cb41
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: api
-    type: application
-    urls:
-    - https://charts.pipem.io/api-1.3.5.tgz
-    version: 1.3.5
+    - apiVersion: v2
+      appVersion: 1.5.2
+      created: '2022-12-09T07:49:59.221924663Z'
+      description: Api
+      digest: 6cfdf8f34a33c2274f141d47d771f2062e471e3b07d682c9bffdcff04afb6a3e
+      icon: https://avatars.githubusercontent.com/u/96174842
+      maintainers:
+        - email: info@pipem.io
+          name: Pipem.io
+          url: https://pipem.io
+      name: api
+      type: application
+      urls:
+        - https://charts.pipem.io/api-1.5.2.tgz
+      version: 1.5.2
   app:
-  - apiVersion: v2
-    appVersion: 1.5.3
-    created: "2022-12-09T07:37:24.292822957Z"
-    description: App
-    digest: 7b76d99c419daf44573c775b437963e86019c0c6cc449203ea559e4ad91cf23a
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: app
-    type: application
-    urls:
-    - https://charts.pipem.io/app-1.5.3.tgz
-    version: 1.5.3
-  - apiVersion: v2
-    appVersion: 1.5.2
-    created: "2022-12-06T07:32:17.460687346Z"
-    description: App
-    digest: 92b404b493d5aebe0c0711f6815d554f9285aa678e2aa5bcba04833bf2b9fcc5
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: app
-    type: application
-    urls:
-    - https://charts.pipem.io/app-1.5.2.tgz
-    version: 1.5.2
-  - apiVersion: v2
-    appVersion: 1.5.1
-    created: "2022-12-05T19:50:43.869640206Z"
-    description: App
-    digest: e03b4a2245b8e778e3ffa20686b8dd4f0b4171e9d7520a8e20aba874768f7628
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: app
-    type: application
-    urls:
-    - https://charts.pipem.io/app-1.5.1.tgz
-    version: 1.5.1
-  - apiVersion: v2
-    appVersion: 1.5.0
-    created: "2022-12-05T18:37:27.788973158Z"
-    description: App
-    digest: 4f779fe203336b3f9dc509b14dcbb55fd20cebf887706b87a2446b4b2c795c5f
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: app
-    type: application
-    urls:
-    - https://charts.pipem.io/app-1.5.0.tgz
-    version: 1.5.0
-  - apiVersion: v2
-    appVersion: 1.4.2
-    created: "2022-11-24T18:39:17.603457131Z"
-    description: App
-    digest: 3bd6a98522ff43e955cb90c8e684447237ffb8b7050f3b6014c28f2eca3cace1
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: app
-    type: application
-    urls:
-    - https://charts.pipem.io/app-1.4.2.tgz
-    version: 1.4.2
-  - apiVersion: v2
-    appVersion: 1.4.1
-    created: "2022-11-24T09:57:01.394966738Z"
-    description: App
-    digest: 91703cf8bbbe8e7661afb784f18f88308cf5f260147de7e0abe59fa4875fb4fb
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: app
-    type: application
-    urls:
-    - https://charts.pipem.io/app-1.4.1.tgz
-    version: 1.4.1
-  - apiVersion: v2
-    appVersion: 1.4.0
-    created: "2022-11-24T09:48:57.490133963Z"
-    description: App
-    digest: a01705521cfa6ae6f2be88cb1f0e421915347a54e51556d5afd1da8b124cefd4
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: app
-    type: application
-    urls:
-    - https://charts.pipem.io/app-1.4.0.tgz
-    version: 1.4.0
-  - apiVersion: v2
-    appVersion: 1.3.3
-    created: "2022-11-14T18:21:30.524100971Z"
-    description: App
-    digest: 9fc066274506e03703cfa5a675cbc7c096a75e90f43ae5d7abe6b40be388748b
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: app
-    type: application
-    urls:
-    - https://charts.pipem.io/app-1.3.3.tgz
-    version: 1.3.3
-  - apiVersion: v2
-    appVersion: 1.3.2
-    created: "2022-11-13T11:07:52.432066713Z"
-    description: App
-    digest: 1068b92da18556b1c93ab7b54277edb309be5c918f1f4c5d75a92202220358ca
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: app
-    type: application
-    urls:
-    - https://charts.pipem.io/app-1.3.2.tgz
-    version: 1.3.2
+    - apiVersion: v2
+      appVersion: 1.5.3
+      created: '2022-12-09T07:37:24.292822957Z'
+      description: App
+      digest: 7b76d99c419daf44573c775b437963e86019c0c6cc449203ea559e4ad91cf23a
+      icon: https://avatars.githubusercontent.com/u/96174842
+      maintainers:
+        - email: info@pipem.io
+          name: Pipem.io
+          url: https://pipem.io
+      name: app
+      type: application
+      urls:
+        - https://charts.pipem.io/app-1.5.3.tgz
+      version: 1.5.3
   nats-producer:
-  - apiVersion: v2
-    appVersion: 2.0.5
-    created: "2022-11-21T21:07:17.117947902Z"
-    description: Nats Producer
-    digest: 038f73ef630e3fc04c60858ba644590d295c87f546a2ad797bad916348122940
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: nats-producer
-    type: application
-    urls:
-    - https://charts.pipem.io/nats-producer-2.0.5.tgz
-    version: 2.0.5
-  - apiVersion: v2
-    appVersion: 2.0.4
-    created: "2022-11-16T00:44:31.526614503Z"
-    description: Nats Producer
-    digest: b4cb411f5107ded0a90090ebe69eaefbc64aead0969a60035044300a959eb612
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: nats-producer
-    type: application
-    urls:
-    - https://charts.pipem.io/nats-producer-2.0.4.tgz
-    version: 2.0.4
-  - apiVersion: v2
-    appVersion: 2.0.1
-    created: "2022-11-16T00:36:02.709748188Z"
-    description: Nats Producer
-    digest: 575f9ef0f89622cb1612c62ca2c1f37c68e83385ae1e8633651d08679fe1388b
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: nats-producer
-    type: application
-    urls:
-    - https://charts.pipem.io/nats-producer-2.0.1.tgz
-    version: 2.0.1
-  - apiVersion: v2
-    appVersion: 1.0.1
-    created: "2022-08-18T19:36:12.080214838Z"
-    description: Nats Producer
-    digest: d5e171e74211da802aee68bd55dc0724ac85ac4b13b23562e131ec153dfd1578
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: mauro.sala@gmail.com
-      name: Mauro Sala
-      url: https://pipem.io
-    name: nats-producer
-    type: application
-    urls:
-    - https://charts.pipem.io/nats-producer-1.0.1.tgz
-    version: 1.0.1
+    - apiVersion: v2
+      appVersion: 2.0.5
+      created: '2022-11-21T21:07:17.117947902Z'
+      description: Nats Producer
+      digest: 038f73ef630e3fc04c60858ba644590d295c87f546a2ad797bad916348122940
+      icon: https://avatars.githubusercontent.com/u/96174842
+      maintainers:
+        - email: info@pipem.io
+          name: Pipem.io
+          url: https://pipem.io
+      name: nats-producer
+      type: application
+      urls:
+        - https://charts.pipem.io/nats-producer-2.0.5.tgz
+      version: 2.0.5
   pipem:
-  - apiVersion: v2
-    appVersion: 0.11.0
-    created: "2022-12-03T13:05:26.835955936Z"
-    dependencies:
-    - condition: mongodb.install
-      name: mongodb
-      repository: https://charts.bitnami.com/bitnami
-      version: 10.30.12
-    - name: nats
-      repository: https://nats-io.github.io/k8s/helm/charts/
-      version: 0.17.1
-    description: Pipem Config
-    digest: 86a23bfc41dd66c9a40eac441216bed65aa39cb999b788615f4b957934ebbe02
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: pipem
-    type: application
-    urls:
-    - https://charts.pipem.io/pipem-0.11.0.tgz
-    version: 0.11.0
-  - apiVersion: v2
-    appVersion: 0.10.2
-    created: "2022-12-03T13:00:11.947766924Z"
-    dependencies:
-    - condition: mongodb.install
-      name: mongodb
-      repository: https://charts.bitnami.com/bitnami
-      version: 10.30.12
-    - name: nats
-      repository: https://nats-io.github.io/k8s/helm/charts/
-      version: 0.17.1
-    description: Pipem Config
-    digest: 4c0353ce03166cff27ceaa9fe75ae42cff9f56dfce5d154b7184f4f4dbcf846b
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: pipem
-    type: application
-    urls:
-    - https://charts.pipem.io/pipem-0.10.2.tgz
-    version: 0.10.2
-  - apiVersion: v2
-    appVersion: 0.10.1
-    created: "2022-12-03T12:48:32.155776856Z"
-    dependencies:
-    - condition: mongodb.install
-      name: mongodb
-      repository: https://charts.bitnami.com/bitnami
-      version: 10.30.12
-    - name: nats
-      repository: https://nats-io.github.io/k8s/helm/charts/
-      version: 0.17.1
-    description: Pipem Config
-    digest: 4def5fbf7a8e95d65b4916d6a236ea60f677a8f5f3a76e2ca06fdf458a2134a9
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: pipem
-    type: application
-    urls:
-    - https://charts.pipem.io/pipem-0.10.1.tgz
-    version: 0.10.1
-  - apiVersion: v2
-    appVersion: 0.10.0
-    created: "2022-12-03T12:32:46.672082003Z"
-    dependencies:
-    - condition: mongodb.install
-      name: mongodb
-      repository: https://charts.bitnami.com/bitnami
-      version: 10.30.12
-    - name: nats
-      repository: https://nats-io.github.io/k8s/helm/charts/
-      version: 0.17.1
-    description: Pipem Config
-    digest: 9fdd25dd26300ecae6dacbca8bf14b1c46c3babcec0cbd4ae7c0782a37b9465a
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: pipem
-    type: application
-    urls:
-    - https://charts.pipem.io/pipem-0.10.0.tgz
-    version: 0.10.0
-  - apiVersion: v2
-    appVersion: 0.9.3
-    created: "2022-11-09T11:54:19.907814109Z"
-    dependencies:
-    - condition: mongodb.install
-      name: mongodb
-      repository: https://charts.bitnami.com/bitnami
-      version: 10.30.12
-    - name: nats
-      repository: https://nats-io.github.io/k8s/helm/charts/
-      version: 0.17.1
-    description: Pipem Config
-    digest: d4e68d83ed0d336c87168d2ad921df246628955e68cd5da213fb96e89e8a6af5
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: pipem
-    type: application
-    urls:
-    - https://charts.pipem.io/pipem-0.9.3.tgz
-    version: 0.9.3
+    - apiVersion: v2
+      appVersion: 0.11.0
+      created: '2022-12-03T13:05:26.835955936Z'
+      dependencies:
+        - condition: mongodb.install
+          name: mongodb
+          repository: https://charts.bitnami.com/bitnami
+          version: 10.30.12
+        - name: nats
+          repository: https://nats-io.github.io/k8s/helm/charts/
+          version: 0.17.1
+      description: Pipem Config
+      digest: 86a23bfc41dd66c9a40eac441216bed65aa39cb999b788615f4b957934ebbe02
+      icon: https://avatars.githubusercontent.com/u/96174842
+      maintainers:
+        - email: info@pipem.io
+          name: Pipem.io
+          url: https://pipem.io
+      name: pipem
+      type: application
+      urls:
+        - https://charts.pipem.io/pipem-0.11.0.tgz
+      version: 0.11.0
   provider-github:
-  - apiVersion: v2
-    appVersion: 2.1.4
-    created: "2022-12-09T15:49:59.244310159Z"
-    description: Provider GitHub
-    digest: 402a316d2b91160b8c6082f0b480ec27ace2000866b7086bf095f5eeddf01b4a
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-2.1.4.tgz
-    version: 2.1.4
-  - apiVersion: v2
-    appVersion: 2.1.2
-    created: "2022-12-08T17:43:03.228684744Z"
-    description: Provider GitHub
-    digest: 74675ae518fa97260543b5bcdf5c1be7a1ca0c03cddb7c89bc6fd87aed82a6e2
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-2.1.2.tgz
-    version: 2.1.2
-  - apiVersion: v2
-    appVersion: 2.1.1
-    created: "2022-12-03T12:02:48.406889863Z"
-    description: Provider GitHub
-    digest: 151b48d3dc96a59fb4c3cce713aad7155332f4807c3c92ce1d04b614290a2931
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-2.1.1.tgz
-    version: 2.1.1
-  - apiVersion: v2
-    appVersion: 2.1.0
-    created: "2022-12-02T15:00:31.016144713Z"
-    description: Provider GitHub
-    digest: cfb53a9e66d8c7a2257bd48aea212e9f96824572575280b1c9cc0653bc498d05
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-2.1.0.tgz
-    version: 2.1.0
-  - apiVersion: v2
-    appVersion: 2.0.11
-    created: "2022-11-22T23:10:00.532164021Z"
-    description: Provider GitHub
-    digest: 96d5bd0a93074a800725af25eda88b656dfcdb4c10e8844af6b871a863336e4d
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-2.0.11.tgz
-    version: 2.0.11
-  - apiVersion: v2
-    appVersion: 2.0.10
-    created: "2022-11-22T12:39:53.313814047Z"
-    description: Provider GitHub
-    digest: e729d36f2dad2ebb3f808781ca5545be3006e710b2a9032cea1b1520ba3759af
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-2.0.10.tgz
-    version: 2.0.10
-  - apiVersion: v2
-    appVersion: 2.0.9
-    created: "2022-11-22T11:48:07.843303873Z"
-    description: Provider GitHub
-    digest: 3981a67592740ee80fcf144a66af556d852c41789a4e18ffcc6a3db2d3a1c5ff
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-2.0.9.tgz
-    version: 2.0.9
-  - apiVersion: v2
-    appVersion: 2.0.8
-    created: "2022-11-22T11:36:52.689832803Z"
-    description: Provider GitHub
-    digest: 6dae513a62249dc0f6c1619222f56f46fb931f095ca87a23cf9301e3bf6a57ed
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-2.0.8.tgz
-    version: 2.0.8
-  - apiVersion: v2
-    appVersion: 2.0.7
-    created: "2022-11-22T10:56:16.116555959Z"
-    description: Provider GitHub
-    digest: 83c0de80739aaa69483eca05d9ee0cf873a67f201081c166dba9042ea5142681
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-2.0.7.tgz
-    version: 2.0.7
-  - apiVersion: v2
-    appVersion: 2.0.6
-    created: "2022-11-22T08:02:47.718088753Z"
-    description: Provider GitHub
-    digest: cc01cb371b9383d354703d8200a772a72a5be4832f80fe921ddba33d288128f7
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-2.0.6.tgz
-    version: 2.0.6
-  - apiVersion: v2
-    appVersion: 2.0.5
-    created: "2022-11-21T22:38:37.933940094Z"
-    description: Provider GitHub
-    digest: f3b303927a9bb7f9628ffd713f6d2b3d1239e2628490bc131c4db240fe596611
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-2.0.5.tgz
-    version: 2.0.5
-  - apiVersion: v2
-    appVersion: 2.0.4
-    created: "2022-11-16T08:49:25.334366309Z"
-    description: Provider GitHub
-    digest: 581a114cf2d3d018a4aa50c2e3b829315b72bdae4ff237e1bcb3d8aa71480891
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-2.0.4.tgz
-    version: 2.0.4
-  - apiVersion: v2
-    appVersion: 2.0.3
-    created: "2022-11-16T00:27:48.543187137Z"
-    description: Provider GitHub
-    digest: 6d7e0b929776eb93a4abcdac9feef9e79f5867dad422743460d87884d163a6ff
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-2.0.3.tgz
-    version: 2.0.3
-  - apiVersion: v2
-    appVersion: 2.0.1
-    created: "2022-11-15T23:40:14.457157837Z"
-    description: Provider GitHub
-    digest: c3e078be067b57dd5223a96a2b9c47225daa31adab14ff5ba8bce3676ffcacfa
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-2.0.1.tgz
-    version: 2.0.1
-  - apiVersion: v2
-    appVersion: 1.0.2
-    created: "2022-08-22T19:53:35.194270414Z"
-    description: Provider GitHub
-    digest: 7472c882f15030cf08a846769703aabcbd8379a177f5b6624600a414b25f5660
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: mauro.sala@gmail.com
-      name: Mauro Sala
-      url: https://pipem.io
-    name: provider-github
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-github-1.0.2.tgz
-    version: 1.0.2
+    - apiVersion: v2
+      appVersion: 2.1.4
+      created: '2022-12-09T15:49:59.244310159Z'
+      description: Provider GitHub
+      digest: 402a316d2b91160b8c6082f0b480ec27ace2000866b7086bf095f5eeddf01b4a
+      icon: https://avatars.githubusercontent.com/u/96174842
+      maintainers:
+        - email: info@pipem.io
+          name: Pipem.io
+          url: https://pipem.io
+      name: provider-github
+      type: application
+      urls:
+        - https://charts.pipem.io/provider-github-2.1.4.tgz
+      version: 2.1.4
   provider-gitlab:
-  - apiVersion: v2
-    appVersion: 2.0.3
-    created: "2022-12-09T15:47:58.148887721Z"
-    description: Provider GitLab
-    digest: ab71ca8d830f145c3c55acca649cc031bae216671906cea4027bfd5c957288f6
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-gitlab
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-gitlab-2.0.3.tgz
-    version: 2.0.3
-  - apiVersion: v2
-    appVersion: 2.0.2
-    created: "2022-12-08T17:40:42.574765605Z"
-    description: Provider GitLab
-    digest: 2599808fc61951577f5d68c00da9c6494de8eb565fec4f3c1c5e8283b4e084e6
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-gitlab
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-gitlab-2.0.2.tgz
-    version: 2.0.2
-  - apiVersion: v2
-    appVersion: 2.0.1
-    created: "2022-12-07T15:29:31.702119461Z"
-    description: Provider GitLab
-    digest: bd726a2711f6fcc0fd61377e0ba3cbf8da37d35d632ff9e141051c81cb48f0c7
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-gitlab
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-gitlab-2.0.1.tgz
-    version: 2.0.1
-  - apiVersion: v2
-    appVersion: 1.0.1
-    created: "2022-08-22T19:55:09.832867387Z"
-    description: Provider GitLab
-    digest: e16f7e774327568bc6a7e50e5f61fc07c069b09a2b34fd57d673d8854fd93653
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: mauro.sala@gmail.com
-      name: Mauro Sala
-      url: https://pipem.io
-    name: provider-gitlab
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-gitlab-1.0.1.tgz
-    version: 1.0.1
+    - apiVersion: v2
+      appVersion: 2.0.3
+      created: '2022-12-09T15:47:58.148887721Z'
+      description: Provider GitLab
+      digest: ab71ca8d830f145c3c55acca649cc031bae216671906cea4027bfd5c957288f6
+      icon: https://avatars.githubusercontent.com/u/96174842
+      maintainers:
+        - email: info@pipem.io
+          name: Pipem.io
+          url: https://pipem.io
+      name: provider-gitlab
+      type: application
+      urls:
+        - https://charts.pipem.io/provider-gitlab-2.0.3.tgz
+      version: 2.0.3
   provider-google:
-  - apiVersion: v2
-    appVersion: 2.0.4
-    created: "2022-12-09T15:42:05.514276854Z"
-    description: Provider Google
-    digest: 4165daf327a8388b6cd946164039b56e4288e1b9619f3bcfd4b06f4bbd92d744
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-google
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-google-2.0.4.tgz
-    version: 2.0.4
-  - apiVersion: v2
-    appVersion: 2.0.3
-    created: "2022-12-08T17:46:24.806990998Z"
-    description: Provider Google
-    digest: 4079aa9d420dd0524785cfb7dff3ea1385ea7fac700333c1dfb366ffc07537f7
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-google
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-google-2.0.3.tgz
-    version: 2.0.3
-  - apiVersion: v2
-    appVersion: 2.0.2
-    created: "2022-12-06T17:02:02.062805972Z"
-    description: Provider Google
-    digest: 393e76ea6067ae5307e5678ceff16ef90b9be2528fb070d7aa20c71fc7abd030
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-google
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-google-2.0.2.tgz
-    version: 2.0.2
-  - apiVersion: v2
-    appVersion: 2.0.1
-    created: "2022-12-06T16:51:12.059541198Z"
-    description: Provider Google
-    digest: e91b9d4ef589e90adc2a4a2f7c6ca628055a6008ec312f282d2a0696b9f5e58d
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-google
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-google-2.0.1.tgz
-    version: 2.0.1
-  - apiVersion: v2
-    appVersion: 1.2.0
-    created: "2022-10-15T13:37:45.549983493Z"
-    description: Provider Google
-    digest: 161c26a5aec0ee83b83979ebbb59230cde92cea3e4d71c66afc899fba45393ef
-    icon: https://avatars.githubusercontent.com/u/96174842
-    maintainers:
-    - email: info@pipem.io
-      name: Pipem.io
-      url: https://pipem.io
-    name: provider-google
-    type: application
-    urls:
-    - https://charts.pipem.io/provider-google-1.2.0.tgz
-    version: 1.2.0
-generated: "2022-12-09T15:49:59.24361515Z"
+    - apiVersion: v2
+      appVersion: 2.0.4
+      created: '2022-12-09T15:42:05.514276854Z'
+      description: Provider Google
+      digest: 4165daf327a8388b6cd946164039b56e4288e1b9619f3bcfd4b06f4bbd92d744
+      icon: https://avatars.githubusercontent.com/u/96174842
+      maintainers:
+        - email: info@pipem.io
+          name: Pipem.io
+          url: https://pipem.io
+      name: provider-google
+      type: application
+      urls:
+        - https://charts.pipem.io/provider-google-2.0.4.tgz
+      version: 2.0.4
+generated: '2022-12-09T15:49:59.24361515Z'
