@@ -162,6 +162,22 @@ entries:
     urls:
     - https://charts.pipem.io/pipem-0.11.0.tgz
     version: 0.11.0
+  provider-azure:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-12-24T15:56:03.47669198Z"
+    description: Provider Azure
+    digest: 8bdd7ed91e312dc21d1cf9b002d8043287904efe8156571343a7761f4a5aa752
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: info@pipem.io
+      name: Pipem.io
+      url: https://pipem.io
+    name: provider-azure
+    type: application
+    urls:
+    - https://charts.pipem.io/provider-azure-1.0.0.tgz
+    version: 1.0.0
   provider-github:
   - apiVersion: v2
     appVersion: 2.3.0
@@ -300,4 +316,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-2.0.4.tgz
     version: 2.0.4
-generated: "2022-12-24T15:17:38.058182705Z"
+generated: "2022-12-24T15:56:03.476249777Z"
