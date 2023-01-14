@@ -78,6 +78,21 @@ entries:
     version: 1.5.2
   app:
   - apiVersion: v2
+    appVersion: 1.6.5
+    created: "2023-01-14T15:22:13.267925825Z"
+    description: App
+    digest: dc0cc27a41f9f406527e83295403aae8e690e03699914afff5a1c6a96cb7c5df
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: info@pipem.io
+      name: Pipem.io
+      url: https://pipem.io
+    name: app
+    type: application
+    urls:
+    - https://charts.pipem.io/app-1.6.5.tgz
+    version: 1.6.5
+  - apiVersion: v2
     appVersion: 1.6.4
     created: "2023-01-14T13:30:08.167277709Z"
     description: App
@@ -376,4 +391,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-2.0.4.tgz
     version: 2.0.4
-generated: "2023-01-14T15:20:25.351037334Z"
+generated: "2023-01-14T15:22:13.267284735Z"
