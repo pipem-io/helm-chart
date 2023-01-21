@@ -422,6 +422,21 @@ entries:
     version: 2.0.3
   provider-google:
   - apiVersion: v2
+    appVersion: 2.1.1
+    created: "2023-01-21T12:06:44.813581523Z"
+    description: Provider Google
+    digest: 8bc868181d41f3746cabb3e78cbb9b6a118e4e6c3d01b67dc61fb6a431436af6
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: info@pipem.io
+      name: Pipem.io
+      url: https://pipem.io
+    name: provider-google
+    type: application
+    urls:
+    - https://charts.pipem.io/provider-google-2.1.1.tgz
+    version: 2.1.1
+  - apiVersion: v2
     appVersion: 2.1.0
     created: "2022-12-17T21:59:18.210422942Z"
     description: Provider Google
@@ -451,4 +466,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-2.0.4.tgz
     version: 2.0.4
-generated: "2023-01-21T11:02:33.013009749Z"
+generated: "2023-01-21T12:06:44.813022589Z"
