@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: Clear history
+    name: Clear helm charts history
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -21,7 +21,7 @@ jobs:
         run: |
           git config --local user.email "hello@pipem.io"
           git config --local user.name "hello-pipem"
-          git commit -m "Clear history" -a
+          git commit -m "Clear helm charts history" -a
       - name: Verify Changed files
         uses: tj-actions/verify-changed-files@v13
         id: verify-changed-files
