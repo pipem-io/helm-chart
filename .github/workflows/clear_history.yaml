@@ -1,4 +1,4 @@
-name: Clear history
+name: Clear helm charts history
 
 on:
   schedule:
