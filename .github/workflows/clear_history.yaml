@@ -18,6 +18,7 @@ jobs:
       - name: Clear history
         run: node index.js
       - name: Commit changes
+        if: steps.verify-changed-files.outputs.files_changed == 'true'
         run: |
           git config --local user.email "hello@pipem.io"
           git config --local user.name "hello-pipem"
