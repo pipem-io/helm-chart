@@ -17,12 +17,6 @@ jobs:
         run: npm install
       - name: Clear history
         run: node index.js
-      - name: Commit changes
-        if: steps.verify-changed-files.outputs.files_changed == 'true'
-        run: |
-          git config --local user.email "hello@pipem.io"
-          git config --local user.name "hello-pipem"
-          git commit -m "Clear helm charts history" -a
       - name: Verify Changed files
         uses: tj-actions/verify-changed-files@v13
         id: verify-changed-files
@@ -30,6 +24,12 @@ jobs:
           files: |
             *.yaml
             *.tgz
+      - name: Commit changes
+        if: steps.verify-changed-files.outputs.files_changed == 'true'
+        run: |
+          git config --local user.email "hello@pipem.io"
+          git config --local user.name "hello-pipem"
+          git commit -m "Clear helm charts history" -a
       - name: Push changes
         if: steps.verify-changed-files.outputs.files_changed == 'true'
         uses: ad-m/github-push-action@master
