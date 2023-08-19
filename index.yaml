@@ -1,5 +1,21 @@
 apiVersion: v1
 entries:
+  alerter:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-08-19T12:23:30.880453594Z"
+    description: Alerter
+    digest: 0a24a6080cb011724cf3b6503a542fc6f60980cd54928b15dd76c366b36dbfed
+    icon: https://avatars.githubusercontent.com/u/96174842
+    maintainers:
+    - email: info@pipem.io
+      name: Pipem.io
+      url: https://pipem.io
+    name: alerter
+    type: application
+    urls:
+    - https://charts.pipem.io/alerter-0.1.0.tgz
+    version: 0.1.0
   api:
   - apiVersion: v2
     appVersion: 1.6.6
@@ -212,4 +228,4 @@ entries:
     urls:
     - https://charts.pipem.io/provider-google-2.1.1.tgz
     version: 2.1.1
-generated: "2023-08-17T16:05:35.151509679Z"
+generated: "2023-08-19T12:23:30.879588373Z"
